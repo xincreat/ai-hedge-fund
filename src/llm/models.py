@@ -44,21 +44,21 @@ class LLMModel(BaseModel):
 
 # Define available models
 AVAILABLE_MODELS = [
-    LLMModel(
-        display_name="[anthropic] claude-3.5-haiku",
-        model_name="claude-3-5-haiku-latest",
-        provider=ModelProvider.ANTHROPIC
-    ),
-    LLMModel(
-        display_name="[anthropic] claude-3.5-sonnet",
-        model_name="claude-3-5-sonnet-latest",
-        provider=ModelProvider.ANTHROPIC
-    ),
-    LLMModel(
-        display_name="[anthropic] claude-3.7-sonnet",
-        model_name="claude-3-7-sonnet-latest",
-        provider=ModelProvider.ANTHROPIC
-    ),
+    # LLMModel(
+    #     display_name="[anthropic] claude-3.5-haiku",
+    #     model_name="claude-3-5-haiku-latest",
+    #     provider=ModelProvider.ANTHROPIC
+    # ),
+    # LLMModel(
+    #     display_name="[anthropic] claude-3.5-sonnet",
+    #     model_name="claude-3-5-sonnet-latest",
+    #     provider=ModelProvider.ANTHROPIC
+    # ),
+    # LLMModel(
+    #     display_name="[anthropic] claude-3.7-sonnet",
+    #     model_name="claude-3-7-sonnet-latest",
+    #     provider=ModelProvider.ANTHROPIC
+    # ),
     LLMModel(
         display_name="[deepseek] deepseek-r1",
         model_name="deepseek-reasoner",
@@ -69,41 +69,41 @@ AVAILABLE_MODELS = [
         model_name="deepseek-chat",
         provider=ModelProvider.DEEPSEEK
     ),
-    LLMModel(
-        display_name="[gemini] gemini-2.0-flash",
-        model_name="gemini-2.0-flash",
-        provider=ModelProvider.GEMINI
-    ),
-    LLMModel(
-        display_name="[gemini] gemini-2.5-pro",
-        model_name="gemini-2.5-pro-exp-03-25",
-        provider=ModelProvider.GEMINI
-    ),
-    LLMModel(
-        display_name="[groq] llama-3.3 70b",
-        model_name="llama-3.3-70b-versatile",
-        provider=ModelProvider.GROQ
-    ),
-    LLMModel(
-        display_name="[openai] gpt-4.5",
-        model_name="gpt-4.5-preview",
-        provider=ModelProvider.OPENAI
-    ),
-    LLMModel(
-        display_name="[openai] gpt-4o",
-        model_name="gpt-4o",
-        provider=ModelProvider.OPENAI
-    ),
-    LLMModel(
-        display_name="[openai] o1",
-        model_name="o1",
-        provider=ModelProvider.OPENAI
-    ),
-    LLMModel(
-        display_name="[openai] o3-mini",
-        model_name="o3-mini",
-        provider=ModelProvider.OPENAI
-    ),
+    # LLMModel(
+    #     display_name="[gemini] gemini-2.0-flash",
+    #     model_name="gemini-2.0-flash",
+    #     provider=ModelProvider.GEMINI
+    # ),
+    # LLMModel(
+    #     display_name="[gemini] gemini-2.5-pro",
+    #     model_name="gemini-2.5-pro-exp-03-25",
+    #     provider=ModelProvider.GEMINI
+    # ),
+    # LLMModel(
+    #     display_name="[groq] llama-3.3 70b",
+    #     model_name="llama-3.3-70b-versatile",
+    #     provider=ModelProvider.GROQ
+    # ),
+    # LLMModel(
+    #     display_name="[openai] gpt-4.5",
+    #     model_name="gpt-4.5-preview",
+    #     provider=ModelProvider.OPENAI
+    # ),
+    # LLMModel(
+    #     display_name="[openai] gpt-4o",
+    #     model_name="gpt-4o",
+    #     provider=ModelProvider.OPENAI
+    # ),
+    # LLMModel(
+    #     display_name="[openai] o1",
+    #     model_name="o1",
+    #     provider=ModelProvider.OPENAI
+    # ),
+    # LLMModel(
+    #     display_name="[openai] o3-mini",
+    #     model_name="o3-mini",
+    #     provider=ModelProvider.OPENAI
+    # ),
 ]
 
 # Create LLM_ORDER in the format expected by the UI
