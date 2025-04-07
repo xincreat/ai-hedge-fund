@@ -1,0 +1,28 @@
+qstock
+backtrader
+pyfolio
+
+# use: pip install baostock -i https://pypi.org/simple 
+baostock
+
+dotenv
+langchain-core
+langgraph
+colorama
+questionary
+python-dateutil
+tabulate
+chromadb
+python-multipart
+langchain_openai
+akshare
+dashscope
+# langchain_qwen
+langchain_deepseek
+langchain_groq
+langchain_anthropic
+langchain_google_genai
+
+# should install seperately from above
+# jupyter
+# notebook
